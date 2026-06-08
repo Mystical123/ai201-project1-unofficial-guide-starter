@@ -9,27 +9,24 @@
 
 ## Domain
 
-<!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+CS department professor reviews at Sacramento State University, sourced from Rate My Professors. This knowledge is hard to find otherwise because it is scattered across individual professor pages and never aggregated or searchable by topic — students have to already know which professor to look up before they can find anything useful. This system makes it possible to ask cross-professor questions like "who is best for beginners?" and get a grounded answer.
 
 ---
 
 ## Documents
 
-<!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
-     Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
-
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Rate My Professors | Reviews for Mamoun Abu-Samaha | https://www.ratemyprofessors.com/professor/2231940 |
+| 2 | Rate My Professors | Reviews for Prof. Badruddoja | https://www.ratemyprofessors.com/professor/954619 |
+| 3 | Rate My Professors | Reviews for Prof. Gordon | https://www.ratemyprofessors.com/professor/2545657 |
+| 4 | Rate My Professors | Reviews for Prof. Jin | https://www.ratemyprofessors.com/professor/626344 |
+| 5 | Rate My Professors | Reviews for Prof. Krovetz | https://www.ratemyprofessors.com/professor/2016315 |
+| 6 | Rate My Professors | Reviews for Prof. Peng | https://www.ratemyprofessors.com/professor/2463450 |
+| 7 | Rate My Professors | Reviews for Prof. Polivka | https://www.ratemyprofessors.com/professor/857674 |
+| 8 | Rate My Professors | Reviews for Prof. Sabzevary | https://www.ratemyprofessors.com/professor/679668 |
+| 9 | Rate My Professors | Reviews for Prof. Salem | https://www.ratemyprofessors.com/professor/2933307 |
+| 10 | Rate My Professors | Reviews for Prof. Tajlil | https://www.ratemyprofessors.com/professor/3089504 |
 
 ---
 

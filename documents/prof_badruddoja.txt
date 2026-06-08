@@ -1,0 +1,483 @@
+3.9
+/ 5
+Overall Quality Based on 20 ratings
+Syed Badruddoja
+Professor in the Computer Science department at California State University - Sacramento
+72%
+Would take again
+2.7
+Level of Difficulty
+
+Rate
+Arrow Icon
+Compare
+I'm Professor Badruddoja
+Rating Distribution
+Awesome 5
+
+10
+Great 4
+
+4
+Good 3
+
+2
+OK 2
+
+5
+Awful 1
+
+0
+Similar Professors
+5.00
+Kang Peng
+5.00
+Scott Davis
+4.70
+Scott Gordon
+
+00:00
+/
+00:00
+
+
+
+20 Student Ratings
+All courses
+Quality
+2.0
+Difficulty
+3.0
+CSC138
+May 25th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A-
+Textbook: N/A
+The prof is caring & gave points back on the HW and allowed a make-up test since everyone did so bad. I simply don't like his teaching style. Each class felt 3hrs & the hw q's are long & hard to understand. Best to not miss class since most hw & exam q's will be based on in class activities. Exam review is not helpful; basically study everything.
+Participation matters
+Caring
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+4.0
+Difficulty
+3.0
+CSC138
+May 23rd, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: Yes
+The lectures were boring but clear to understand. Three programming assignments and lots of homework, but they are clear and easy to follow along with. The professor was understanding when it came to grading the midterm and gave extra credit opportunities. All exam and quiz information was in the lecture slides.
+Participation matters
+Clear grading criteria
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+Dec 14th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: Yes
+Professor cares, is understanding, and wants to make sure everyone succeeds. Few assignments throughout the semester, quiz every week, all online. Exams just like the homework mostly, so study those and you'll be fine.
+Clear grading criteria
+Caring
+Respected
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+5.0
+CSC138
+Aug 2nd, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: Yes
+he is a good prof, he knows what he doing
+Hilarious
+Caring
+Respected
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+3.0
+Computer IconCSC138
+Jul 10th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+Online Class: Yes
+Great professor. Despite it being a 6 week course, he does a lot to make the workload manageable. 4 hw and 4 prog assignments with a project that he allowed to be done in groups. Tests very similar to what's covered in class in hw. Lecture is a bit heavy. Participation not mandatory but zoom lectures can be awkward if he feels no one is engaging.
+Gives good feedback
+Caring
+Accessible outside class
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+3.0
+CSC138
+May 13th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+Prof. Syed is a great professor who cares about his students. The class has extra credit opportunities depending on how the class does on each exam. The class also has a lot of homework, but it can be a plus since exams are only worth 40% of the grade, midterm and final.
+EXTRA CREDIT
+Lots of homework
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC196D
+Jan 11th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+This class is teaches Blockchain so if you like cryptocurrency then I'd take this class since it counts as an elective. Syed makes this class fun and you can pass as long as you do the work since he grades generously. This class has a final project where you implement Blockchain technology to develop a decentralized application.
+Group projects
+Clear grading criteria
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+Dec 12th, 2024
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: C+
+Textbook: Yes
+Professor Syed has been amazing, the only reason for my bad grade is my own fault. However, he is a generous grader and very caring for his students learning. I would take him again. Exams were basically the same questions from quizzes and homeworks, with a couple numbers modified for the math related problems. Easy A- if you are on top of it
+Caring
+Lecture heavy
+Accessible outside class
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+Nov 27th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+If you are willing to do the work and show up, this class is very easy. Exams are similar to the quizzes, homework, and examples he gives in class. The professor also takes the students' advice and cares more about the students' understanding than grades.
+Participation matters
+Clear grading criteria
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+3.0
+Difficulty
+2.0
+CSC138
+Aug 17th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: Yes
+Syed isn't a bad person but he tends to information dump and doesn't spend too much time on subjects, but he's very knowledgeable about Computer Networks. He's always available in office hours to help on HW and labs. He has pretty nice grade weights and is a generous grader IMO. Learn the basics of Python (sockets) since you'll need it for labs.
+Clear grading criteria
+Lecture heavy
+Accessible outside class
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+2.0
+CSC154
+Aug 17th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: C
+Textbook: Yes
+It was Syed's first time teaching 154 and he taught it during the summer. His class consists of homework assignments and labs where you simulate different types of attacks and how to defend against them. There's a midterm, final, and project. Overall, really liked this class and I recommend taking it if he's available and you need an elective.
+Clear grading criteria
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+4.0
+Difficulty
+2.0
+CSC139
+Aug 17th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+This class was during summer and it was his first time teaching it. The class isn't difficult compared to the other professors so if he's available, take Syed. He is a fair grader and has good grade weights. Class overall isn't super difficult if you go to class and do the homework. One midterm, final and a small project. Overall, great class.
+Clear grading criteria
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+Jun 2nd, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+I think he is still new but man is he killing it. He knows his stuff and I loved attending his lectures. Curved the scores at the end too. Attendance was not mandatory. Exams were very similar to hw/quizzes. Quizzes were not timed and we had unlimited attempts. A 10/10 professor!
+Amazing lectures
+Clear grading criteria
+Gives good feedback
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+3.0
+CSC138
+May 15th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: Yes
+The professor was amazing. There were many concepts in this subject, but the professor explained the stuff well. The professor was available to help students and make them understand the concepts.
+Gives good feedback
+Inspirational
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+May 14th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+His lectures are very well thought out and follow a logical design. He doesn't jump around or make unnecessary ideas known. He gets straight to it and teaches the fundamentals. Furthermore, he changed his style from slides to whiteboard diagrams at students' requests. He truly cares that the students are learning. I'll take him for any class I can.
+Amazing lectures
+Caring
+Accessible outside class
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+2.0
+Difficulty
+3.0
+CSC138
+Apr 22nd, 2024
+For Credit: Yes
+Grade: B
+Textbook: Yes
+Like others have said, Syed speeds through lectures and info dumps. His lectures are also based on very old and outdated information. His slides are so outdated that he never even mentioned the WIFI 6/6E standards... in a class about Networking Fundamentals. If you're taking him over the summer, I pity you.
+Get ready to read
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+1
+Thumbs down
+0
+
+Quality
+2.0
+Difficulty
+4.0
+CSC138
+Nov 24th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Textbook: Yes
+The class itself is interesting and it could be fun. However, there is just too much memorization required, to the point where the midterm average was a 70%. Badruddoja just packs in way too much information and too many back-to-back labs and HW, especially towards the end of the semester. Avoid this guy if you're taking a full load.
+Get ready to read
+Group projects
+Lots of homework
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+2.0
+Difficulty
+3.0
+CSC138
+Nov 14th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+He is friendly and knowledgable, but information dumps and jumps from topic to topic. Speed through lectures. Uses ancient slides. Half of HW is stuff we never touched upon. Labs are pretty helpful to learn, you code in python. He is open to answering questions. Not a hard class if you form study groups. He is ok but reccomend someone else
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+2.0
+Difficulty
+4.0
+CSC138
+Nov 13th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Textbook: N/A
+Speeds through lectures, assignments aren't graded in a timely manner. Most of the class leaves learning nothing from lectures, our time is better spent studying outside of class. He's starting to now assign hw and labs weekly, hw gives us a challenge, lots of errors happen on labs, seems that he's unaware of them. Friendly, take someone else tho
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+3.0
+Difficulty
+3.0
+CSC138
+Nov 4th, 2023
+For Credit: Yes
+Attendance: Mandatory
+Textbook: Yes
+Zero help on HW, seems so disinterested, takes weeks to grade assignments, and may or may not take attendance. HW essentially requires configuring a Linux VM and writing Python programs. His HW and slides are ancient. Overall, he takes an interesting class and makes it boring with lots of HW padding, but his grade weights are nice.
+Group projects
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+2.0
+CSC138
+Sep 27th, 2023
+For Credit: Yes
+Would Take Again: Yes
+Grade: A+
+Midterm/final are only 20/25% of your grade. The rest is labs and HW, which are really easy. He does have that kind of voice that makes you want to fall asleep. Lectures are just straight from his slides. He seems pretty great right now, but I'll update this later on throughout the semester.
+Inspirational
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+

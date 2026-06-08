@@ -1,0 +1,700 @@
+3.6
+/ 5
+Overall Quality Based on 63 ratings
+Ying Jin
+Professor in the Computer Science department at California State University - Sacramento
+66%
+Would take again
+2.7
+Level of Difficulty
+
+Rate
+Arrow Icon
+Compare
+I'm Professor Jin
+Rating Distribution
+Awesome 5
+
+27
+Great 4
+
+12
+Good 3
+
+9
+OK 2
+
+5
+Awful 1
+
+10
+Similar Professors
+5.00
+Kang Peng
+5.00
+Scott Davis
+4.70
+Scott Gordon
+
+00:00
+/
+00:00
+
+
+
+63 Student Ratings
+All courses
+Quality
+4.0
+Difficulty
+2.0
+CSC174
+May 25th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+A lot of in person examples that are on exams, so attendance is important. Gave 2.5 pages for cheat sheet exam 1 which was mainly on the LLM hw we did. If you write down and understand the code, it's pretty easy. The LLM unit was really interesting. No cheat sheet for final, but if you practice given examples and hw it's easy too.
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+4.0
+Difficulty
+2.0
+CSC134
+Apr 10th, 2026
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: N/A
+Made our in person class async except for exams, was very thorough with her lecture materials and altered exams so we would do better on them. Go to class, pay attention, do the homework, and the class should be relatively easy from there.
+Lecture heavy
+Test heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+4.0
+CSC244
+Oct 15th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A+
+Textbook: Yes
+I took Prof. Jin's class in Fall 2024. Her notes and slides are super detailed and perfect for tests. I've taken similar courses before, even back in undergrad, but this one stood out because of how well she teaches. You can tell she actually cares about students understanding the material.Definitely recommend her class!
+Get ready to read
+Group projects
+Gives good feedback
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+4.0
+Difficulty
+3.0
+CSC134
+Sep 16th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: N/A
+Watch the lectures and take notes. Throw it on 1.5x speed and actually watch it. Everything is covered in the lectures. Do the examples in class. Do the homework. If you can do all that the exams (the majority of your grade) will be easy. Attendance was only required for exams, the rest was online async.
+Lecture heavy
+Test heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+1.0
+Computer IconCS135
+Jul 10th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: N/A
+Online Class: Yes
+Lots of 40 min lecture videos to go through per week, but for a summer course the workload is really light. Tests were also really simple and takes like 10 min to finish if you went in prepared. Assignments were pretty interesting and straightforward.
+Gives good feedback
+Lecture heavy
+Online Savvy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+3.0
+CSC174
+Jun 3rd, 2025
+Would Take Again: Yes
+Grade: A
+Great class! She made things easier to learn by giving good examples.
+Amazing lectures
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+3.0
+Difficulty
+1.0
+CSC134
+Jun 2nd, 2025
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+Biggest takeaways from this class were the SQL projects and exposure to the existence of ER & Relational Mapping diagrams. Sift through the nonsense that is her lectures, find and study the practice problems, as they are almost 1:1 with the exams.
+Clear grading criteria
+Lots of homework
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+2.0
+CSC134
+May 17th, 2025
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+Textbook: N/A
+She is very knowledgeable. Her lectures are all you need to do well in assignments and exams. The grading was fair.
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+4.0
+CSC134
+May 17th, 2025
+For Credit: Yes
+Grade: B+
+Textbook: Yes
+Terrible instructor. Exams aren't anything like the lectures and lectures miss certain things that are covered on the exams. Absolutely terrible.
+Get ready to read
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+3.0
+CSC134
+May 13th, 2025
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Everything was well explained at an appropriate pace. She went into great detail with good examples.
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+1.0
+CS135
+May 1st, 2025
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+Won't give feedback in timely manner Dont teach industry standard
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+4.0
+Difficulty
+3.0
+Computer IconCSC134
+Dec 6th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B
+Textbook: N/A
+Online Class: Yes
+Within 134, lecture videos were a big priority in this course. They were clear and consise, she also offers captions which helps to keep pace and understanding with what is being said. I enjoyed this course overall and feel I was able to understand more because of the ability to stop and understand. She is always quick to respond to emails as well.
+Get ready to read
+Lecture heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+Quality
+2.0
+Difficulty
+3.0
+CSC134
+Dec 6th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A-
+Textbook: N/A
+Her lectures are horrible, long and unfocused. She doesn't do a good job at explaining theoretical concepts in understandable terms. Her quizzes seem to cover things she never does in the lectures. However the class isn't horrible and the homework is pretty easy. She struggles with English and is sometimes hard to understand.
+Tough grader
+Test heavy
+Helpful
+Thumbs up
+0
+Thumbs down
+0
+
+
+Quality
+3.0
+Difficulty
+3.0
+CSC134
+Jul 10th, 2024
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B-
+Textbook: N/A
+In person tests and lectures are prerecorded. Not a difficult class, just take the time to watch her lecture videos. It is very easy to get lazy in this class and not watch her lecture videos. Take notes on her lectures and redo the homework and you should be good. Her thick accent can make it difficult so it helps that lectures are online.
+Lecture heavy
+Test heavy
+Helpful
+Thumbs up
+1
+Thumbs down
+1
+
+Quality
+5.0
+Difficulty
+2.0
+CSC174
+Apr 12th, 2024
+Would Take Again: Yes
+Very useful and applicable course for preparing interviews. Great lectures and the course curriculum is very good and organized. She broke down hard ones to easy to learn steps. The way she teaches is amazing.
+Amazing lectures
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+1
+
+
+Quality
+1.0
+Difficulty
+2.0
+CSC174
+Feb 2nd, 2024
+For Credit: Yes
+Textbook: N/A
+Talks in a sweet voice, but doesn't really show concern for student learning. was very excited for this class but has a very outdated syllabus for database system according to industry standards. Slides are hard to understand and useless for examination prep. very confusing experience. Not worth taking her class.
+Graded by few things
+Helpful
+Thumbs up
+2
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+4.0
+Computer IconCSC134
+Nov 14th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: B+
+Textbook: N/A
+Online Class: Yes
+She has in-depth lecture videos for each topic. Can be a bit unclear on some parts, but overall explains stuff thoroughly. Lots of lecture videos. Friendly and open to answering questions. Hw can bit tough, but the tests are relatively easier. Expect a considerate amount of work and lectures, but if you do everything you should pass.
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+3
+
+
+Quality
+1.0
+Difficulty
+4.0
+CSC134
+Aug 27th, 2023
+For Credit: Yes
+A perfect example of your typical procrastinating professor. There were still two whole lessons she didn't teach us before finals week, so she just decided to skip them. However, I wouldn't recommend taking her class because of how chaotic her scheduling is and because you might miss important concepts. Don't listen to the other positive reviews.
+Tough grader
+Get ready to read
+Test heavy
+Helpful
+Thumbs up
+3
+Thumbs down
+1
+
+Quality
+5.0
+Difficulty
+3.0
+Computer IconCSC134
+Jul 6th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: A-
+Textbook: N/A
+Online Class: Yes
+In this online class it boiled down to you understanding the core concepts. Jin was available during her office hours and was more than willing to help you understand the ideas. By using tools from the internet it was easier to understand her last two assignments using SQL but she prepares you pretty well to do the programming portion of this class
+Get ready to read
+Lecture heavy
+Graded by few things
+Helpful
+Thumbs up
+4
+Thumbs down
+5
+
+
+Quality
+5.0
+Difficulty
+2.0
+CSC174
+Jun 3rd, 2023
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+Took her csc 134 and 174. Both courses were great, examples and exercises in class were super helpful for the exams. Just follow her instructions and do assignments and you'll easily pass.
+Helpful
+Thumbs up
+1
+Thumbs down
+4
+
+Quality
+5.0
+Difficulty
+3.0
+CSC174
+May 26th, 2023
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+One of the best professors at Sac State. She divides big units into small pieces. Lectures are good and thorough. The in-class exercises are not worth points, but are helpful for the exams, so don't skip those.
+Helpful
+Thumbs up
+1
+Thumbs down
+6
+
+Quality
+5.0
+Difficulty
+2.0
+CSC134
+May 26th, 2023
+Would Take Again: Yes
+She curves on final grade, not final exam. Assignments do bring grades up, too bad our class avg was high so she couldn't add extra points. Her lectures are great w lots of good examples, but you have to take notes bc they're not in the slides. Easy class in my opinion, but don't take her if you expect a free ride
+Helpful
+Thumbs up
+0
+Thumbs down
+6
+
+Quality
+1.0
+Difficulty
+5.0
+CSC134
+May 25th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: F
+Textbook: Yes
+Assignments didn't help to prepare us for the final exam. She lies and says she'll curve exams but then doesn't. If she's your only best option, be sure to read the textbook she uses. Her slides are useless and that's all she used as her lecture material. She doesn't make learning the concepts any easier either.
+Tough grader
+Get ready to read
+Helpful
+Thumbs up
+5
+Thumbs down
+0
+
+
+Quality
+1.0
+Difficulty
+4.0
+CSC134
+May 25th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: C-
+Textbook: Yes
+I went from an A to a C- after the final exam. She is way too easy on assignments, giving us points back for those, but way too hard on exams. Waited until the last day to submit final grades before posting the final exam scores, and now I see why. Apparently, she gave some students 0s on the final exam and won't explain why. Just avoid her.
+Get ready to read
+Test heavy
+Helpful
+Thumbs up
+6
+Thumbs down
+0
+
+Quality
+1.0
+Difficulty
+4.0
+CSC134
+May 25th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: F
+Textbook: Yes
+The assignments are easy, but the exams are awful. She didn't curve the final exam like she promised even though the class average was around 62%. Her lectures are so mediocre that you're better off using the book she bases her slides on. She seems sweet in person, but she is either oblivious to her students or just doesn't care.
+Tough grader
+Get ready to read
+Helpful
+Thumbs up
+6
+Thumbs down
+0
+
+Quality
+2.0
+Difficulty
+4.0
+CSC134
+May 24th, 2023
+For Credit: Yes
+Grade: D
+Textbook: Yes
+Tells class to study the slides for the final. Proceeds to make the final nothing like the slides. Awesome. Exams and assignments full of typos. Recommend self-teaching because she often leaves you more confused after the lectures. Only 5 assignments and no practice on concepts after SQL. She was 4 chapters behind in teaching by finals week. Avoid.
+Get ready to read
+Test heavy
+Helpful
+Thumbs up
+8
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+3.0
+CSC134
+May 18th, 2023
+Attendance: Not Mandatory
+Would Take Again: Yes
+Sweetest professor. She knows the subject really well. Her lectures cover everything you need to pass the class.
+Amazing lectures
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+7
+
+Quality
+3.0
+Difficulty
+3.0
+CSC134
+May 16th, 2023
+For Credit: Yes
+Grade: Not sure yet
+You will find yourself self-teaching a lot of the concepts, especially after SQL. She gives no extra HW practice after SQL and regurgitates her slides (which are full of typos). Only 5 HW (28%), a midterm (32%), and a final (40%). Given the limited selection of professors teaching CSC 134, she's probably your best option. :/
+Get ready to read
+Helpful
+Thumbs up
+7
+Thumbs down
+0
+
+Quality
+4.0
+Difficulty
+3.0
+CSC174
+May 13th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Grade: Not sure yet
+Textbook: N/A
+She's a pretty alright teacher. Have yet to take the final, but her midterm was fairly easy. What I will say is the lack of homework past week 11 kinda sucks bc we get 0 practice for any of the topics related to the final exam which is not cumulative. She gives very light curves on exams. If you've got limited options for 134/174 she's an ok pick.
+Lecture heavy
+Graded by few things
+Helpful
+Thumbs up
+0
+Thumbs down
+4
+
+
+Quality
+5.0
+Difficulty
+2.0
+CSC134
+Apr 1st, 2023
+For Credit: Yes
+Would Take Again: Yes
+Grade: A
+She has been an excellent professor, explicit and detailed. A lot of good examples make the hard topics easy to understand. The lectures and assignments cover everything you need to know for the midterm. She gave enough time to answer the questions in the exam.
+Amazing lectures
+Helpful
+Thumbs up
+0
+Thumbs down
+6
+
+Quality
+3.0
+Difficulty
+3.0
+CSC134
+Mar 27th, 2023
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: A
+Textbook: N/A
+The most recent 2-star review was spot on. To add on, the HW she assigns can be found in the textbook, and classes consist of her regurgitating her own PowerPoint slides while (futilely) answering a few questions. (-_-) If you're looking for a professor that goes more in-depth and explains the concepts better, this one ain't it.
+Get ready to read
+Gives good feedback
+Helpful
+Thumbs up
+2
+Thumbs down
+0
+
+Quality
+5.0
+Difficulty
+3.0
+CSC134
+Dec 20th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Great class, great professor. The lectures were very well-organized. She is really great at explaining materials.
+Amazing lectures
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+3
+
+Quality
+2.0
+Difficulty
+2.0
+CSC134
+Oct 23rd, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Grade: B
+Textbook: Yes
+Lectures for the database class mainly consisted of her relaying the rules to you. There wasn't much explanation of why, or putting it all in context. The book was marked as required but later she mentioned that it was optional in person. She is benevolent, and apparently interested in databases. However, teaching is a bit of a chore for her.
+Helpful
+Thumbs up
+3
+Thumbs down
+0
+
+
+Quality
+5.0
+Difficulty
+4.0
+CSC134
+Jul 12th, 2022
+For Credit: Yes
+Attendance: Not Mandatory
+Would Take Again: Yes
+Amazing professor, great at explaining materials. Her lectures were organized very well. Exams and assignments were correlated with the lectures and the grading was fair.
+Amazing lectures
+Gives good feedback
+Caring
+Helpful
+Thumbs up
+0
+Thumbs down
+3
+
+Quality
+3.0
+Difficulty
+3.0
+Computer IconCSC134
+Dec 17th, 2021
+For Credit: Yes
+Attendance: Mandatory
+Would Take Again: No
+Grade: B
+Textbook: No
+Online Class: Yes
+She's okay. Not a great teacher, but decent enough. Her midterm and final do not match the course well, so watch out for that.
+Skip class? You won't pass.
+Clear grading criteria
+Tough grader
+Helpful
+Thumbs up
+1
+Thumbs down
+0
