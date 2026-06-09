@@ -37,12 +37,14 @@ CS department professor reviews at Sacramento State University, sourced from Rat
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
+
+
 **Chunk size:**
-
+Chunk size will be set to 500 characters, this is long enough to capture 2-3 reviews and short enough to stay focused on whats given. Fixed character size approach is best because it will handle any format we don't have control over and it will provide us with more efficient chunks that can store multiple reviews.
 **Overlap:**
-
+Overlap will be set to 100 characters which will catch the split boundary without too much redunancy. Overlap matters here because Rate My Professor reviews end and start just like that and we need 100 char overalop to ensure that the tail of one chunk and head of the next will share enough context where we don't lose critical meaning. 
 **Reasoning:**
-
+The purpose of this would be so we can get the most amount of context from our reviews while also not losing any data or context in the process but still being efficient with our tokens because we dont want to use too much to the point its inefficient. However, we do want enough context so we know what the reviews are about and have 100 characters overlapping to also know a bit more context from previous reviews. Too small of a chunk would be anything less than 200 characters, each chunk is a setnece fragment or a half review. Too large would be anything greater than 1000 characters since this would combine too many reviews together and make it harder to go through. Sweet Spot would be anything around 500 characters because this is where the chunk will capture 1-3 reviews and the chunk will be mroe focused. LLM will also get enough context to genereate a grounded and specific answer.
 ---
 
 ## Retrieval Approach
@@ -53,11 +55,13 @@ CS department professor reviews at Sacramento State University, sourced from Rat
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
 
-**Top-k:**
+**Embedding model:** all-MiniLM-L6-v2 via sentence-transformers
 
-**Production tradeoff reflection:**
+**Top-k:** 3 to 5 chunks is the sweet spot for the msot context and also not being too overwhelming withtout overwhelming the LLM with too much information. 
+
+**Production tradeoff reflection:** all-MiniLM-L6-v2 runs locally at no cost, which is ideal for this project. However, in a production system I would weigh the following tradeoffs: context length is capped at 256 tokens, which works for short reviews but would be limiting for longer documents; it is English-only, so non-English reviews or queries wouldn't be served well; it is general-purpose and not fine-tuned on academic or review text, so niche terminology may not embed as accurately as a domain-specific model; and running locally means higher latency at scale compared to an API-hosted model. A model like OpenAI's text-embedding-3-small would address latency and accuracy, while multilingual-e5 would add language coverage.
+
 
 ---
 
@@ -70,11 +74,11 @@ CS department professor reviews at Sacramento State University, sourced from Rat
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Which professor should I take for the most useful lectures and best in-person teaching experience? | Scott Gordon is the best option based on reviews — students consistently mention his clear explanations, engaging lectures, and useful in-class examples that directly help with exams. He has a 4.7/5 rating with 89% of students saying they would take him again. |
+| 2 | Which professor has the easiest exams that are similar to the homework and study guides? | Holly Tajlil is frequently praised for well-organized classes with a low difficulty rating of 2.4. Reviews indicate her exams align closely with homework and study material, making her one of the most approachable professors in the department. |
+| 3 | Which professor is the most helpful with feedback on assignments and responds to emails? | Mamoun Abu-Samaha stands out based on his 4.4/5 rating across 134 reviews, with students noting his responsiveness and genuine care for student success. He is one of the most reviewed professors in the department, suggesting consistent positive experiences. |
+| 4 | Which professor has the best reviews for teaching CS courses and keeping class structured? | Scott Gordon receives the highest ratings for structured and effective teaching. Reviews highlight his ability to keep class on track, cover relevant material, and make difficult concepts accessible compared to lower-rated professors. |
+| 5 | How quickly does Abu-Samaha typically respond when you need help or are falling behind? | Based on reviews, Mamoun Abu-Samaha is known for being accessible and responsive. Students report he responds within the same day via email and holds useful office hours, making it easy to get help when falling behind. |
 
 ---
 
@@ -84,9 +88,8 @@ CS department professor reviews at Sacramento State University, sourced from Rat
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
-
-2.
+1. Missing source attribution: Rate my Professor does not have a clean source to copy and paste from and because of this, many chunks could be missing what professor they are coming from and the system might not return the best possible answer due to lack of information
+2. off-topic retrieval: my question might be about how a specific professor's grading is but because I dont know what chunks are going ot be retreieved, the chunk might talk about office hours or how well the professor teaches their class instead of having context for the actual question. 
 
 ---
 
@@ -97,6 +100,19 @@ CS department professor reviews at Sacramento State University, sourced from Rat
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+flowchart LR
+    A[Raw .txt Files\ndocuments/] --> B[Document Ingestion\npython / open()]
+    B --> C[Chunking\n500 chars / 100 overlap]
+    C --> D[Embedding\nall-MiniLM-L6-v2]
+    D --> E[Vector Store\nChromaDB]
+    F[User Query] --> G[Query Embedding\nall-MiniLM-L6-v2]
+    G --> E
+    E --> H[Top-5 Chunks Retrieved]
+    H --> I[Response Generation\nLlama 3.3 via Groq]
+    I --> J[Answer + Source Citation]
+```
 
 ---
 
@@ -113,7 +129,14 @@ CS department professor reviews at Sacramento State University, sourced from Rat
      with my specified chunk size and overlap" is a plan. -->
 
 **Milestone 3 — Ingestion and chunking:**
-
+-Input to Claude: Chunking strategy section of planning.md + the structure of my .txt files 
+-Expected Output: a python function that laods all 10 .txt files and splits them into 500 char chunks with 100-char overlap 
+-how to Verify: check that chunks are right size and professor names are preservred 
 **Milestone 4 — Embedding and retrieval:**
-
+-Input to Claude: Retreival Approach section + chunking output 
+-Expected Output: code that embeds chunks using all-MiniLM-L6-v2 and stores them into ChromaDB, plus a query function that returns top 5 chunks 
+-How to verify: run test query and confirm relevant chunks come back 
 **Milestone 5 — Generation and interface:**
+Input to Claude: full pipeline spec + Groq API setup
+Expected output: code that takes retreieved chunks and sends them to Llama 3.3 via Groq with prompt hat forces groudned, cited answers 
+How to verify: ask test qeustion and confirm answer references real professor from documents 
