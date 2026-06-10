@@ -1,5 +1,8 @@
 import os
 import re
+import random
+from sentence_transformers import SentenceTransformer
+import chromadb
 
 DOCUMENTS_DIR = "documents"
 
@@ -65,7 +68,7 @@ def load_documents():
 
     return documents
 
-def chunk_text(text, source, chunk_size=500, overlap=100):
+def chunk_text(text, source, chunk_size=800, overlap=150):
     chunks = []
     start = 0
 
@@ -83,6 +86,40 @@ def chunk_text(text, source, chunk_size=500, overlap=100):
 
     return chunks
 
+def embed_and_store(chunks):
+    print("\nLoading embedding model...")
+    model = SentenceTransformer("all-MiniLM-L6-v2")
+
+    client = chromadb.Client()
+    collection = client.create_collection(
+        name="professor_reviews",
+        metadata={"hnsw:space": "cosine"}
+    )
+
+    print(f"Embedding and storing {len(chunks)} chunks...")
+    texts = [chunk["text"] for chunk in chunks]
+    embeddings = model.encode(texts, show_progress_bar=True)
+
+    collection.add(
+        ids=[str(i) for i in range(len(chunks))],
+        embeddings=embeddings.tolist(),
+        documents=texts,
+        metadatas=[{"source": chunk["source"], "chunk_index": i} for i, chunk in enumerate(chunks)]
+    )
+
+    print(f"Stored {collection.count()} chunks in ChromaDB")
+    return collection, model
+
+
+def retrieve(query, collection, model, top_k=5):
+    query_embedding = model.encode([query])[0]
+    results = collection.query(
+        query_embeddings=[query_embedding.tolist()],
+        n_results=top_k
+    )
+    return results
+
+
 if __name__ == "__main__":
     documents = load_documents()
     print(f"\nTotal documents loaded: {len(documents)}")
@@ -94,10 +131,24 @@ if __name__ == "__main__":
 
     print(f"Total chunks: {len(all_chunks)}")
 
-    # print 5 sample chunks to inspect
-    print("\n--- Sample chunks ---")
-    import random
-    for chunk in random.sample(all_chunks, 5):
-        print(f"\n[Source: {chunk['source']}]")
-        print(chunk["text"])
-        print("-" * 40)
+    collection, model = embed_and_store(all_chunks)
+
+    # test retrieval with 3 evaluation queries
+    test_queries = [
+        "Which professor has the most useful lectures?",
+        "Which professor has the easiest exams?",
+        "Which professor responds fastest to emails?"
+    ]
+
+    for query in test_queries:
+        print(f"\n{'='*50}")
+        print(f"Query: {query}")
+        print('='*50)
+        results = retrieve(query, collection, model)
+        for i, (doc, meta, distance) in enumerate(zip(
+            results["documents"][0],
+            results["metadatas"][0],
+            results["distances"][0]
+        )):
+            print(f"\n[Result {i+1}] Source: {meta['source']} | Distance: {distance:.3f}")
+            print(doc[:300])

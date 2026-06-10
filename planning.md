@@ -40,7 +40,7 @@ CS department professor reviews at Sacramento State University, sourced from Rat
 
 
 **Chunk size:**
-Chunk size will be set to 500 characters, this is long enough to capture 2-3 reviews and short enough to stay focused on whats given. Fixed character size approach is best because it will handle any format we don't have control over and it will provide us with more efficient chunks that can store multiple reviews.
+Chunk size was updated to 800 characters after testing showed 500-character chunks produced weak retrieval scores (above 0.5). Larger chunks carry more semantic signal per embedding, which improved top results to the 0.31-0.49 range., this is long enough to capture 2-3 reviews and short enough to stay focused on whats given. Fixed character size approach is best because it will handle any format we don't have control over and it will provide us with more efficient chunks that can store multiple reviews.
 **Overlap:**
 Overlap will be set to 100 characters which will catch the split boundary without too much redunancy. Overlap matters here because Rate My Professor reviews end and start just like that and we need 100 char overalop to ensure that the tail of one chunk and head of the next will share enough context where we don't lose critical meaning. 
 **Reasoning:**
