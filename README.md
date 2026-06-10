@@ -53,6 +53,155 @@ CS department professor reviews at Sacramento State University, sourced from Rat
 
 ---
 
+## Sample Chunks
+
+The following are 5 representative chunks from the vector store, each labeled with its source document.
+
+**Chunk 1 | Source: prof_badruddoja.txt**
+```
+Quality: 2.0 | Difficulty: 3.0 | CSC138 | May 25th, 2026
+For Credit: Yes | Attendance: Not Mandatory | Grade: A-
+The prof is caring & gave points back on the HW and allowed a make-up test since everyone did so bad.
+I simply don't like his teaching style. Each class felt 3hrs & the hw q's are long & hard to understand.
+Best to not miss class since most hw & exam q's will be based on in class activities.
+Exam review is not helpful; basically study everything.
+```
+
+**Chunk 2 | Source: prof_jin.txt**
+```
+Quality: 4.0 | Difficulty: 2.0 | CSC174 | May 25th, 2026
+For Credit: Yes | Attendance: Not Mandatory | Grade: A
+A lot of in person examples that are on exams, so attendance is important.
+Gave 2.5 pages for cheat sheet exam 1 which was mainly on the LLM hw we did.
+If you write down and understand the code, it's pretty easy. The LLM unit was really interesting.
+No cheat sheet for final, but if you practice given examples and hw it's easy too.
+```
+
+**Chunk 3 | Source: prof_tajlil.txt**
+```
+Quality: 5.0 | Difficulty: 2.0 | CSC28 | May 28th, 2026
+For Credit: Yes | Attendance: Mandatory | Grade: A-
+She gives you so many resources to succeed that if you fail, it really is on you.
+Her lectures are dense in a good way; they cover a lot of material in a way that is easy to follow,
+and she incorporates visual learning when possible.
+I recommend taking her classes, and I hope to do so in the future.
+```
+
+**Chunk 4 | Source: prof_sabzevary.txt**
+```
+Quality: 4.0 | Difficulty: 3.0 | CSC130 | May 26th, 2026
+For Credit: Yes | Attendance: Mandatory | Grade: A-
+It is a very straightforward class. There is one midterm and one final exam,
+both are VERY similar to the study guide he gives. If you understand everything on them then you WILL pass.
+He is a very chill grader, takes student input into consideration
+(we skipped zybooks because everyone told prof it wasn't helpful, prof moved due dates around, etc)
+```
+
+**Chunk 5 | Source: prof_abu-samaha.txt**
+```
+Quality: 5.0 | Difficulty: 3.0 | INFO6350 | Apr 10th, 2026
+For Credit: Yes | Attendance: Mandatory | Grade: A
+Good instructor! Gives good feedback. Knowledgeable in his field.
+He gives a lot of information about the industry, especially the current trends.
+His lectures are quite interesting. He focuses on the overall learning perspective of the student
+and goes beyond textbook knowledge. He is one of the best Professors in the Computer Science Department.
+```
+
+---
+
+## Retrieval Test Results
+
+**Query 1: "Which professor has the most useful lectures?"**
+
+Top returned chunks:
+- `prof_abu-samaha.txt` (distance: 0.319) — "His lectures are quite interesting. He focuses on the overall learning perspective of the student and goes beyond textbook knowledge."
+- `prof_jin.txt` (distance: 0.389) — "Amazing lectures. Helpful."
+- `prof_sabzevary.txt` (distance: 0.400) — "lecturer. Funny too. Hilarious. Caring. Respected. Helpful."
+- `prof_abu-samaha.txt` (distance: 0.400) — "Lectures are not just informative but professor also has a sense of humour which makes it fun to learn from him."
+- `prof_krovetz.txt` (distance: 0.416) — "His lectures are easy to follow, you can check your hw, and you get unlimited quiz attempts."
+
+**Why these chunks are relevant:** The query asks about lecture quality. All returned chunks contain explicit mentions of lectures — either using the word "lectures" directly or describing the professor's in-class teaching style. The top result from Abu-Samaha directly addresses lecture usefulness with the phrase "goes beyond textbook knowledge," which semantically matches the concept of "useful lectures."
+
+---
+
+**Query 2: "Which professor has the easiest exams?"**
+
+Top returned chunks:
+- `prof_krovetz.txt` (distance: 0.407) — "It is not the easiest subject to digest. If you come to lecture, you will likely understand a lot of it."
+- `prof_krovetz.txt` (distance: 0.407) — "Very knowledgeable professor! But his lectures are really boring and his grading is terrible!"
+- `prof_tajlil.txt` (distance: 0.415) — "Has 70% Test rule. Lectures were extremely long and boring. Test heavy."
+- `prof_krovetz.txt` (distance: 0.417) — "Clear grading criteria. Test heavy. Helpful."
+- `prof_sabzevary.txt` (distance: 0.420) — "Very disorganized but has the easiest 'exams' ever. 4 quizzes over the span of the semester with no cumulative final."
+
+**Why these chunks are relevant:** The query asks about exam difficulty. The retrieved chunks all contain references to exams, tests, or grading. The most directly relevant chunk is the Sabzevary result which uses the exact phrase "easiest exams ever" — this is a strong semantic and keyword match. The Krovetz results appear because they discuss exam grading, even though they describe his exams as hard, demonstrating that retrieval finds topically relevant chunks regardless of sentiment.
+
+---
+
+**Query 3: "Which professor responds fastest to emails?"**
+
+Top returned chunks:
+- `prof_tajlil.txt` (distance: 0.488) — "She is a pretty average professor. She is super fast when responding to emails and will often respond as late as 9:00."
+- `prof_sabzevary.txt` (distance: 0.552) — "lecturer. Funny too. Hilarious. Caring. Respected. Helpful."
+- `prof_tajlil.txt` (distance: 0.553) — "I really liked Professor Tajlil. She's a super nice lady and at times can be a little repetitive lecturing the material."
+- `prof_abu-samaha.txt` (distance: 0.594) — "urself everything. Lots of homework. Helpful."
+- `prof_abu-samaha.txt` (distance: 0.600) — "Knowledgeable in his field. He gives a lot of information about the industry."
+
+---
+
+## Example Responses
+
+**Response 1 — Query: "Which professor has the easiest exams that are similar to the homework and study guides?"**
+
+> Based on the context, Professor Sabzevary has the easiest "exams" ever, with 4 quizzes over the span of the semester and no cumulative final. Additionally, Professor Tajlil allows a 5x7 card of notes for exams, which may also indicate that her exams are more straightforward.
+>
+> Sources:
+> - [Source: prof_sabzevary.txt]
+> - [Source: prof_tajlil.txt]
+
+---
+
+**Response 2 — Query: "Which professor has the best reviews for teaching CS courses and keeping class structured?"**
+
+> Based on the context, Professor Gordon has the best reviews for teaching CS courses and keeping class structured. He is described as having "great lectures", being "one of the better professors at CSUS", and having a "lecture heavy" teaching style. He also has clear grading criteria, is caring, and is helpful. Additionally, one review states that "He explains things very clearly. If you are doing bad in this class then you are not paying attention. Just show up, pay attention and you'll do fine."
+>
+> Sources:
+> 1. prof_gordon.txt
+> 2. prof_abu-samaha.txt
+> 3. prof_jin.txt
+
+---
+
+**Response 3 (out-of-scope) — Query: "What is the best restaurant near campus?"**
+
+> I don't have enough information on that.
+>
+> Sources: None of the provided sources (prof_krovetz.txt, prof_polivka.txt, prof_abu-samaha.txt) contain information about restaurants near campus.
+
+---
+
+## Query Interface
+
+**Input field:** A text box labeled "Your question" with a placeholder example: "Which professor has the most useful lectures?" The user types a plain-language question about Sac State CS professors and either clicks the Ask button or presses Enter to submit.
+
+**Output fields:**
+- **Answer** — a multi-line text box showing the LLM-generated response. The response is grounded in retrieved review chunks and includes inline source citations naming which document(s) the answer drew from.
+- **Retrieved from** — a multi-line text box listing the source filenames of the top-5 retrieved chunks, displayed as a bulleted list. This field is populated programmatically regardless of what the LLM produces.
+
+**Sample interaction transcript:**
+
+*Input:* "How quickly does Abu-Samaha typically respond when you need help or are falling behind?"
+
+*Answer output:*
+> According to the context, Professor Abu-Samaha is "always willing to help every student" and is "incredibly communicative with students, even outside regular hours" and "accessible outside class". This suggests that he is responsive and available to help when needed.
+>
+> Sources:
+> [Source: prof_abu-samaha.txt]
+
+*Retrieved from output:*
+> • prof_abu-samaha.txt
+
+---
+
 ## Evaluation Report
 
 | # | Question | Expected answer | System response (summarized) | Retrieval quality | Response accuracy |
